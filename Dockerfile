@@ -28,6 +28,6 @@ RUN pip install numpy==1.16.5
 RUN pip install sphinx==2.2.1
 RUN pip install scipy==1.3.1
 RUN pip install matplotlib==3.0.3
-RUN pip install skimage=0.15.0
+RUN pip install scikit-image==0.15.0
 RUN pip install protobuf==3.6.0
 RUN pip install pyyaml==5.1
