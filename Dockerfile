@@ -6,8 +6,8 @@ RUN apt-get update \
         build-essential \
         cmake \
         git \
-        wget \
-        unzip \
+        wget=1.17.1 \
+        unzip=3.0-11 \
         vim \
         yasm \
         pkg-config \
@@ -20,7 +20,7 @@ RUN apt-get update \
         libavformat-dev \
         libpq-dev \
         python3-pip \
-        python3-dev \
+        python3-dev=3.5.1 \
         python3-setuptools \
     && rm -rf /var/lib/apt/lists/*
 
