@@ -9,5 +9,5 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 RUN apt-get update \
-    && add-apt-repository ppa:jonathonf/python-3.5.2 \
+    && add-apt-repository ppa:jonathonf/python-3.5 \
     && apt-get update
