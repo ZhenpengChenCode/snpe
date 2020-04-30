@@ -24,6 +24,7 @@ RUN apt-get update \
         python3-setuptools \
     && rm -rf /var/lib/apt/lists/*
 
+RUN pip install wheel
 RUN pip install numpy==1.16.5
 RUN pip install sphinx==2.2.1
 RUN pip install scipy==1.3.1
